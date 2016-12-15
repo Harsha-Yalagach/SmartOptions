@@ -58,9 +58,9 @@ buildTestRunner:
 
 # Phony target to create output directory...
 createOutDir:
-	@printf "\n---> Creating Output Directory... n"
+	@printf "\n---> Creating Output Directory..."
 	$(shell mkdir -p $(OUT_DIR) >/dev/null)
-	printf "done\n\n"
+	@printf "done\n\n"
 
 # Phony target to display Project/Copyright information...
 copyright:
