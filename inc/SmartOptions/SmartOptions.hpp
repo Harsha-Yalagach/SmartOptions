@@ -41,7 +41,7 @@
  * the values from the command line parameters.
  *
  * Salient Features of SmartOptions are:
- * - Itandles the POSIX style single character options ( -w ) as well as the newer GNU long options ( --width )
+ * - It handles the POSIX style single character options ( -w ) as well as the newer GNU long options ( --width )
  * - Is platform independent.
  * - Requires minimal effort to parse Command Line Arguments, and allows you to concentrate on business logic.
  * - Retrieves the Command Line arguments and populates the variables automatically.
