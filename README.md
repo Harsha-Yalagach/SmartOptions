@@ -55,3 +55,6 @@ The benefit of SmartOptions is that it parses the command line parameters, and a
     // Use posVar1 to do some processing...
     // ...
 ```
+
+#### Documentation
+Browse [Doxygen Documentation](https://harsha-yalagach.github.io/SmartOptions/html/index.html)
