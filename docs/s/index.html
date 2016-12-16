@@ -34,34 +34,35 @@ layout: home
 
 <code>
 {% highlight cpp %}
-    SmartOptions smartOptions = SmartOptions("TestApp", true);
+SmartOptions smartOptions = SmartOptions("TestApp", true);
 
-    smartOptions.AddDescription("The Test App...");
-    smartOptions.AddUsage("[OPTION]... <POSITIONAL_ARG>");
+smartOptions.AddDescription("The Test App...");
+smartOptions.AddUsage("[OPTION]... <POSITIONAL_ARG>");
 
-    const char *posArg_1 = NULL;
-    smartOptions.AddPositionalArgument("posArg_1", "Positional Argument 1", &posArg_1);
+const char *posArg_1 = NULL;
+smartOptions.AddPositionalArgument("posArg_1", "Positional Argument 1", &posArg_1);
 
-    bool aFlag=false;
-    smartOptions.AddFlag('a', NULL, "a-Flag", &aFlag);
+bool aFlag=false;
+smartOptions.AddFlag('a', NULL, "a-Flag", &aFlag);
 
-    char *bOption = NULL;
-    smartOptions.AddOption('b', NULL, "B_VAR", "b-Option", &bOption);
+char *bOption = NULL;
+smartOptions.AddOption('b', NULL, "B_VAR", "b-Option", &bOption);
 
-    SMARTOPTIONS_STATUS status = smartOptions.ProcessCommandArgs(SIZE_OF_ARRAY(argV), argV);
+SMARTOPTIONS_STATUS status = smartOptions.ProcessCommandArgs(SIZE_OF_ARRAY(argV), argV);
 
-    int statusCode = kxSmartOptionsProcessCommandArgs(handle, argc, argv);
-    if (SMARTOPTIONS_SUCCESS != status) {
-        exit(statusCode);
-    }
-    if (aFlag) {
-        // Do work when 'aFlag' has been set...
-    }
-    if (bOption) {
-        // Do work when bOption has been set...
-    }
-    // Use posVar1 to do some processing...
-    // ...
+int statusCode = kxSmartOptionsProcessCommandArgs(handle, argc, argv);
+if (SMARTOPTIONS_SUCCESS != status) {
+    exit(statusCode);
+}
+if (aFlag) {
+    // Do work when 'aFlag' has been set...
+}
+if (bOption) {
+    // Do work when bOption has been set...
+}
+// Use posVar1 to do some processing...
+// ...
+// ...
 {% endhighlight %}
 </code>
 

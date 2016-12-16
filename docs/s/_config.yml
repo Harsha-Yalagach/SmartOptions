@@ -30,12 +30,18 @@ markdown: kramdown
 theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
+  
 exclude:
   - Gemfile
   - Gemfile.lock
 
+# Github Information...
+github: 
+  repository_name: SmartOptions
+  username:  Harsha-Yalagach
+  owner_url: https://github.com/Harsha-Yalagach
+  repository_url: https://github.com/Harsha-Yalagach/SmartOptions
+  zip_url: https://github.com/Harsha-Yalagach/SmartOptions/archive/master.zip
 
 # User Information
-github_owner_url: https://github.com/Harsha-Yalagach
-github_username:  Harsha-Yalagach
 twitter_username: HarshaYalagach
