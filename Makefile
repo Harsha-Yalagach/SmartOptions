@@ -10,7 +10,7 @@
 INC_DIR := inc
 TST_DIR := tests
 OUT_DIR := bin
-DOC_DIR := docs
+DOC_DIR := docs/html
 
 TEST_RUNNER := $(OUT_DIR)/TestRunner
 
