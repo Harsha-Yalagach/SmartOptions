@@ -35,6 +35,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+# For searching SASS files automatically...
+sass:
+    sass_dir: ./_scss
+
 # Github Information...
 github: 
   repository_name: SmartOptions
