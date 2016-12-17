@@ -18,7 +18,7 @@ title: SmartOptions
 description: > # this means to ignore newlines until "baseurl:"
   SmartOptions, the Next Generation Command Line Parameter processing library for C++.
 
-baseurl: "/SmartOptions/s" # the subpath of your site, e.g. /blog
+baseurl: "/SmartOptions" # the subpath of your site, e.g. /blog
 url: "https://harsha-yalagach.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #google_analytics: 
