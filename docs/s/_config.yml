@@ -35,9 +35,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# For searching SASS files automatically...
+# We specify the directory for Jekyll so we can use @imports
 sass:
-    sass_dir: ./_sass
+  sass_dir: _sass
 
 # Github Information...
 github: 
