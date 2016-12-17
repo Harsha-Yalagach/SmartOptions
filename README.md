@@ -20,7 +20,7 @@ The benefit of SmartOptions is that it parses the command line parameters, and a
 
 #### Why not just use getopt() ?
 
-* getopt() Its a POSIX standard not part of ANSI-C and hence its not available on platforms like Windows.
+* getopt() Its a POSIX standard and not part of ANSI-C and hence its not available on platforms like Windows.
 * Processing Command Line Arguments using getopt() is tedious, time consuming and everything needs to be done by the programmer.
 
 #### Code Sample:
