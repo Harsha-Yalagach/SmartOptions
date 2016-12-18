@@ -21,7 +21,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/SmartOptions" # the subpath of your site, e.g. /blog
 url: "https://harsha-yalagach.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-#google_analytics: 
 show_downloads: yes
 
 # Build settings
@@ -49,3 +48,6 @@ github:
 
 # User Information
 twitter_username: HarshaYalagach
+
+# Google Analytics Tracking ID
+google_analytics: UA-89117583-1

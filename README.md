@@ -5,6 +5,8 @@ SmartOptions is used for processing command line parameters. It has been inspire
 
 The benefit of SmartOptions is that it parses the command line parameters, and automatically populates the variables, so the developer can concentrate on the business logic, instead of parsing and getting the values from the command line parameters.
 
+You can refer to [Project Home Page](https://harsha-yalagach.github.io/SmartOptions/html/index.html) for more information.
+
 #### Salient Features of SmartOptions are:
 * It handles the POSIX style single character options ( -w ) as well as the newer GNU long options ( –width )
 * Is platform independent.
