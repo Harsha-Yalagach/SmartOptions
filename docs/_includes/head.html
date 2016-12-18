@@ -6,6 +6,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <!-- <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title> -->
 
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type=”image/icon” />
+
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
