@@ -3,8 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <!-- <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title> -->
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }} by {{ site.github.username }}{% endif %}</title>
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type=”image/icon” />
 
