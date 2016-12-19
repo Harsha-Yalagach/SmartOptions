@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+# Sublime Text Files...
+/SmartOptions.sublime-project
+/SmartOptions.sublime-workspace
